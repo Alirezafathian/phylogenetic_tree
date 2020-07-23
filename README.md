@@ -3,10 +3,10 @@ Neighbor Joining Method for Creating Phylogenetic Trees
 
 Scripts for building phylogenetic trees from a given distance matrix with neighbor joining method.
 
-In /phylogenetic_tree/references/phylogenetic_tree.pdf you can find information about phylogenetic trees and neighbor joining method and see some examples of computing phylogenetic trees.
+In <a href="https://github.com/Alirezafathian/phylogenetic_tree/blob/master/references/phylogenetic_tree.pdf">/references/phylogenetic_tree.pdf</a> you can find information about phylogenetic trees and neighbor joining method and see some examples of computing phylogenetic trees.
 
 
-Example:
+#### Example:
 
 Distance Matrix:
  
@@ -19,7 +19,7 @@ Distance Matrix:
 
 Newick Format:
 
-	[  [  [['E',2], ['D',3]], [ ['C',2], [['B',4], ['A',1]] ]  ], ['F',5]  ]
+	[  [[['E',2], ['D',3]], [ ['C',2], [['B',4], ['A',1]]]], ['F',5]  ]
 
 Phylogenetic Tree:
 

@@ -3,14 +3,19 @@ Neighbor Joining Method for Creating Phylogenetic Trees
 
 Scripts for building phylogenetic trees from a given distance matrix with neighbor joining method.
 
-
-phylogenetic trees and neighbor joining method are 
 In /phylogenetic_tree/references/phylogenetic_tree.pdf you can find information about phylogenetic trees and neighbor joining method and see some examples of computing phylogenetic trees.
 
 
 Example:
 
 Distance Matrix:
+| 0 | A | B | C | D | E | F 
+---|--- | --- | --- | --- |--- |--- 
+ A | 0 | 0 | 0 | 0 | 0 | 0 
+---|--- | --- | --- | --- |--- |--- 
+ B | 5 | 0 | 0 | 0 | 0 | 0 
+
+
 array([[ 0,  0,  0,  0,  0,  0],
        [ 5,  0,  0,  0,  0,  0],
        [ 4,  7,  0,  0,  0,  0],

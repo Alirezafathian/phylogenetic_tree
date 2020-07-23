@@ -6,8 +6,8 @@ Scripts for building phylogenetic trees from a given distance matrix with neighb
 In <a href="https://github.com/Alirezafathian/phylogenetic_tree/blob/master/references/phylogenetic_tree.pdf">/references/phylogenetic_tree.pdf</a> you can find information about phylogenetic trees and neighbor joining method and see some examples of computing phylogenetic trees.
 
 Requirements:
-numpy
-math
+numpy,
+math,
 matplotlib
 
 

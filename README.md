@@ -1,11 +1,12 @@
 Neighbor Joining Method for Creating Phylogenetic Trees
 ==============================
+![head](https://github.com/Alirezafathian/phylogenetic_tree/blob/master/fig/head.png) 
 
 Scripts for building phylogenetic trees from a given distance matrix with neighbor joining method.
 
 In <a href="https://github.com/Alirezafathian/phylogenetic_tree/blob/master/references/phylogenetic_tree.pdf">/references/phylogenetic_tree.pdf</a> you can find information about phylogenetic trees and neighbor joining method and see some examples of computing phylogenetic trees.
 
-Requirements:
+# Requirements:
 numpy,
 math,
 matplotlib
@@ -29,6 +30,6 @@ matplotlib
 
 3- Phylogenetic Tree:
 
-![alt text](https://github.com/Alirezafathian/phylogenetic_tree/blob/master/fig/sample_res.png)
+![tree](https://github.com/Alirezafathian/phylogenetic_tree/blob/master/fig/sample_res.png)
  
 	

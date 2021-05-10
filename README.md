@@ -6,15 +6,17 @@ Scripts for building phylogenetic trees from a given distance matrix with neighb
 
 In <a href="https://github.com/Alirezafathian/phylogenetic_tree/blob/master/references/phylogenetic_tree.pdf">/references/phylogenetic_tree.pdf</a> you can find information about phylogenetic trees and neighbor joining method and see some examples of computing phylogenetic trees.
 
-# Requirements:
+### Requirements
 numpy,
 math,
 matplotlib
 
 
-#### Example:
+### Example
 
-1- Distance Matrix:
+#### Input:
+
+Distance Matrix
  
        [ 0,  A,  B,  C,  D,  E,  F]
        [ A,  0,  0,  0,  0,  0,  0]
@@ -24,11 +26,14 @@ matplotlib
        [ E,  6,  9,  6,  5,  0,  0]
        [ F,  8, 11,  8,  9,  8,  0]
 
-2- Newick Format:
+
+### Output:
+
+1. Newick Format:
 
 	[  [[['E',2], ['D',3]], [ ['C',2], [['B',4], ['A',1]]]], ['F',5]  ]
 
-3- Phylogenetic Tree:
+2. Phylogenetic Tree:
 
 ![tree](https://github.com/Alirezafathian/phylogenetic_tree/blob/master/fig/sample_res.png)
  
